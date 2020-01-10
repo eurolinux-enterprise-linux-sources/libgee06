@@ -1,6 +1,6 @@
 Name:           libgee06
 Version:        0.6.8
-Release:        1%{?dist}
+Release:        3%{?dist}
 Summary:        GObject collection library
 
 Group:          System Environment/Libraries
@@ -105,6 +105,12 @@ find $RPM_BUILD_ROOT -name '*.la' -exec rm -f {} ';'
 
 
 %changelog
+* Fri Jan 24 2014 Daniel Mach <dmach@redhat.com> - 0.6.8-3
+- Mass rebuild 2014-01-24
+
+* Fri Dec 27 2013 Daniel Mach <dmach@redhat.com> - 0.6.8-2
+- Mass rebuild 2013-12-27
+
 * Wed Mar 27 2013 Kalev Lember <kalevlember@gmail.com> - 0.6.8-1
 - Update to 0.6.8
 
